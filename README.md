@@ -80,8 +80,6 @@ Then open the link provided (usually [http://localhost:8501](http://localhost:85
 
 ## 🛠 Dependencies
 
-If you don’t have a `requirements.txt`, here’s a minimal version:
-
 ```txt
 fastapi
 uvicorn
@@ -109,6 +107,11 @@ essay-generator/
 ## ⚡ Notes
 
 * Ensure **Ollama** is installed and running locally with the model `deepseek-r1:latest`.
+* If ollama not installed : https://ollama.com/download  - to download ollama
+* Then in terminal
+  ```bash
+ollama run deepseek-r1
+```
 * You can change the model name in `app.py`:
 
   ```python
