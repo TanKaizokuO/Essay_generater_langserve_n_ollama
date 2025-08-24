@@ -42,8 +42,6 @@ venv\Scripts\activate      # On Windows
 pip install -r requirements.txt
 ```
 
-*(If you don’t have `requirements.txt`, see [Dependencies](#-dependencies) section below.)*
-
 ---
 
 ## ▶️ Running the Application
