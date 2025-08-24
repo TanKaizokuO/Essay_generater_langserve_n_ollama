@@ -109,7 +109,7 @@ essay-generator/
 * Ensure **Ollama** is installed and running locally with the model `deepseek-r1:latest`.
 * If ollama not installed : https://ollama.com/download  - to download ollama
 * Then in terminal
-  ```bash
+```bash
 ollama run deepseek-r1
 ```
 * You can change the model name in `app.py`:
